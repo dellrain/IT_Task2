@@ -1,0 +1,11 @@
+﻿<Application x:Class="WpfApplicationAnimals.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewModels="clr-namespace:WpfApplicationAnimals.ViewModels"
+             StartupUri="Views\MainWindow.xaml">
+    <Application.Resources>
+        <viewModels:DogViewModel x:Key="DogViewModel" />
+        <viewModels:PantherViewModel x:Key="PantherViewModel" />
+        <viewModels:TurtleViewModel x:Key="TurtleViewModel" />
+    </Application.Resources>
+</Application>
